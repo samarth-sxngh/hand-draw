@@ -3,6 +3,12 @@
     "outputDirectory": null,
     "installCommand": null,
     "functions": {},
+    "rewrites": [
+      {
+        "source": "/",
+        "destination": "/index2.html"
+      }
+    ],
     "headers": [
       {
         "source": "/(.*)",
